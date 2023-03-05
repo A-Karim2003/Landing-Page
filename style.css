@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 70px;
+  background-image: linear-gradient(
+    110.3deg,
+    rgba(73, 93, 109, 1) 4.3%,
+    rgba(49, 55, 82, 1) 96.7%
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  border-radius: 35px;
+}
+
+.links {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-two {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    110.3deg,
+    rgba(73, 93, 109, 1) 4.3%,
+    rgba(49, 55, 82, 1) 96.7%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 200px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  width: 500px;
+}
+
+.header-desc {
+  width: 500px;
+  font-size: 30px;
+}
+
+.header-two img {
+  object-fit: cover;
+  width: 600px;
+  height: 460px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button {
+  padding: 18px 20px;
+  background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+
