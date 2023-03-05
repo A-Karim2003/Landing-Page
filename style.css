@@ -1,6 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 800px;
+  padding-top: 770px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 header {
@@ -17,6 +22,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 0;
 }
 
 .logo {
@@ -36,7 +42,7 @@ header {
 
 .header-two {
   position: absolute;
-  top: 70px;
+  top: 80px;
   left: 0;
   right: 0;
   background-image: linear-gradient(
@@ -74,7 +80,7 @@ header {
   gap: 30px;
 }
 
-button {
+.sign-up-button {
   padding: 18px 20px;
   background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
   color: white;
@@ -85,7 +91,7 @@ button {
   border-radius: 8px;
 }
 
-button:hover {
+.sign-up-button:hover {
   opacity: 0.7;
 }
 
@@ -110,5 +116,117 @@ button:hover {
 
 .content div {
   width: 200px;
+}
 
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+  margin-top: 80px;
+}
+
+.quote {
+  font-size: 3vh;
+}
+
+.name {
+  font-size: 2vh;
+  color: grey;
+}
+
+.portfolio-container {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-image: radial-gradient(
+    circle 506px at 50.6% 16.5%,
+    rgba(239, 252, 250, 1) 5.5%,
+    rgba(154, 192, 206, 1) 100.2%
+  );
+  margin-bottom: 80px;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 1px 1px 3px;
+}
+
+.portfolio-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px;
+}
+
+.project-img-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 221, 214, 1) 0%,
+    rgba(51, 102, 255, 1) 90%
+  );
+  color: white;
+  width: 800px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding: 8px;
+  
+}
+
+.container p {
+  text-align: center;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action p {
+  margin: 5px;
+}
+
+.sign-up {
+  padding: 8px 16px;
+  border: solid white 1px;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  box-shadow: 1px 1px 1px rgba(239, 252, 250, 0.704);
+}
+
+
+footer{
+  background-image: linear-gradient(
+    110.3deg,
+    rgba(73, 93, 109, 1) 4.3%,
+    rgba(49, 55, 82, 1) 96.7%
+  );
+  height: 70px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 70px;
+
+
+  
 }
