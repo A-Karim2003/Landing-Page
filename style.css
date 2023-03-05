@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 800px;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
 }
 
 .links {
-  width: 300px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +48,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  gap: 200px;
+  gap: 600px;
 }
 
 .title {
@@ -63,7 +64,7 @@ header {
 
 .header-two img {
   object-fit: cover;
-  width: 600px;
+  width: 800px;
   height: 460px;
 }
 
@@ -88,4 +89,26 @@ button:hover {
   opacity: 0.7;
 }
 
+.sub-title {
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 1px 1px 3px;
+}
 
+.content {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+}
+
+.content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.content div {
+  width: 200px;
+
+}
